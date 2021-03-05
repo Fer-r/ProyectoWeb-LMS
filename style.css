@@ -1,7 +1,47 @@
+/*
+Dark Blue: #12232E
+
+Lighter Blue: #007CC7
+
+Lightest Blue: #4DA8DA
+
+Shadow of Dark Blue: #203647
+
+Shadow of Light Blue: #EEFBFB
+*/
+
+/*Etiquetas*/
+body{
+    color: #EEFBFB;
+    background-color: #12232E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header,footer{
+    
     width: 100%;
 }
+
+/*MAIN*/
 
 main{
     width: 80%;
 }
+
+/*FOOTER*/
+
+footer{
+    position:fixed;
+    background-color:#203647 ;
+    left: 0%;
+    
+}   
+
+/*Clases*/
+
+.footer-text{
+    width: 500px;
+    height: 300px;
+}
+
+
