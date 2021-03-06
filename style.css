@@ -11,6 +11,10 @@ Shadow of Light Blue: #EEFBFB
 */
 
 /*Etiquetas*/
+html,body{
+    height: 100%;
+}
+
 body{
     color: #EEFBFB;
     background-color: #12232E;
@@ -26,22 +30,69 @@ header,footer{
 
 main{
     width: 80%;
+    font-size: 14pt;
+    min-height: 100%;
 }
 
 /*FOOTER*/
 
+ 
+
 footer{
-    position:fixed;
+    position:absolute;
+    width: 100%;
     background-color:#203647 ;
-    left: 0%;
-    
+    left: 0;
+    height: 200px;
+    min-width: fit-content;
 }   
 
-/*Clases*/
+   /*Clases*/
 
-.footer-text{
-    width: 500px;
-    height: 300px;
-}
+        .fcontainer{
+        
+            width: 1000px;
+            margin: auto;
+            position: relative;
+            
+        }
+        .footer-text{
+            width: 400px;
+            margin-left: 100px;
+
+        }
+
+        .footer-text p{
+            margin-top: -10px;
+            float:left;
+            text-align: justify;
+            font-size: 11pt;
+            line-height: 16pt;
+        }
+
+        .footer-text q{
+            margin-left: 220px;
+            
+        }
+        .foot-redes{
+            position: absolute;
+            left: 700px;
+            width: 300px;
+            top: -20px;
+        }
+
+        ul {
+           list-style: none; 
+        }
+
+        ul a{
+            color: #EEFBFB;
+        }
+
+        .foot-redes li{
+            margin-bottom: 20px;
+            margin-left: -20px;
+        }
+
 
 
