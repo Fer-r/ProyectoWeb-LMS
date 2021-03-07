@@ -26,12 +26,29 @@ header,footer{
     width: 100%;
 }
 
+/*HEADER*/
+
+header{
+    position: sticky;
+    background-color: #203647;
+    height: 100px;
+    position:absolute;
+    left: 0;
+    top: 0;
+    min-width: fit-content;
+    bottom:150px;
+
+}
+
 /*MAIN*/
 
 main{
+    position: relative;
+    top: 150px;
     width: 80%;
     font-size: 14pt;
     min-height: 100%;
+    bottom: 150px;
 }
 
 /*FOOTER*/
@@ -43,16 +60,18 @@ footer{
     width: 100%;
     background-color:#203647 ;
     left: 0;
-    height: 200px;
-    min-width: fit-content;
+    height: 225px;
+    min-width:fit-content;
 }   
 
    /*Clases*/
 
         .fcontainer{
-        
-            width: 1000px;
+            width: 800px;
+            height: 175px;
             margin: auto;
+            margin-top: 25px;
+            padding-top: 5px;
             position: relative;
             
         }
@@ -78,7 +97,8 @@ footer{
             position: absolute;
             left: 700px;
             width: 300px;
-            top: -20px;
+            height: 175px;
+            top: 5px;
         }
 
         ul {
