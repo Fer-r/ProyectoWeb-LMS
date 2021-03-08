@@ -10,20 +10,39 @@ Shadow of Dark Blue: #203647
 Shadow of Light Blue: #EEFBFB
 */
 
-/*Etiquetas*/
-html,body{
-    height: 100%;
-}
-
 body{
     color: #EEFBFB;
     background-color: #12232E;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 header,footer{
-    
     width: 100%;
+}
+
+/*HEADER*/
+
+header{
+    align-self: flex-start;
+    position: sticky;
+    background-color: #203647;
+    height: 100px;
+}
+
+header #logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+header h1{
+    float: left;
+    text-transform: uppercase;
 }
 
 /*MAIN*/
@@ -36,28 +55,30 @@ main{
 
 /*FOOTER*/
 
- 
-
 footer{
     position:absolute;
     background-color:#203647 ;
-    left: 0;
-    height: 200px;
+    height:fit-content;
     min-width: fit-content;
+    align-self: flex-end;
 }   
 
    /*Clases*/
 
         .fcontainer{
-        
-            width: 1000px;
+            width: 700px;
+            height:fit-content;
             margin: auto;
-            position: relative;
+            margin-bottom: 10px;
             
         }
         .footer-text{
+            float: left;
             width: 400px;
-            margin-left: 100px;
+            padding: 10px;
+            height: 175px;
+            display: block;
+            
 
         }
 
@@ -67,6 +88,7 @@ footer{
             text-align: justify;
             font-size: 11pt;
             line-height: 16pt;
+            
         }
 
         .footer-text q{
@@ -74,10 +96,11 @@ footer{
             
         }
         .foot-redes{
-            position: absolute;
-            left: 700px;
-            width: 300px;
-            top: -20px;
+            float: left;
+            width: 100px;
+            height: 175px;
+            display: block;
+            margin-left: 100px;
         }
 
         ul {
