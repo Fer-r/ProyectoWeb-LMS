@@ -10,74 +10,75 @@ Shadow of Dark Blue: #203647
 Shadow of Light Blue: #EEFBFB
 */
 
-/*Etiquetas*/
-html,body{
-    height: 100%;
-}
-
 body{
     color: #EEFBFB;
     background-color: #12232E;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 header,footer{
-    
     width: 100%;
 }
 
 /*HEADER*/
 
 header{
+    align-self: flex-start;
     position: sticky;
     background-color: #203647;
     height: 100px;
-    position:absolute;
-    left: 0;
-    top: 0;
-    min-width: fit-content;
-    bottom:150px;
+}
 
+header #logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+header h1{
+    float: left;
+    text-transform: uppercase;
+    text
 }
 
 /*MAIN*/
 
 main{
-    position: relative;
-    top: 150px;
     width: 80%;
     font-size: 14pt;
     min-height: 100%;
-    bottom: 150px;
 }
 
 /*FOOTER*/
 
- 
-
 footer{
-    position:absolute;
-    width: 100%;
     background-color:#203647 ;
-    left: 0;
-    height: 225px;
-    min-width:fit-content;
+    height:fit-content;
+    align-self: flex-end;
 }   
 
    /*Clases*/
 
         .fcontainer{
-            width: 800px;
-            height: 175px;
+            width: 700px;
+            height:fit-content;
             margin: auto;
-            margin-top: 25px;
             padding-top: 5px;
-            position: relative;
+            margin-bottom: 10px;
             
         }
         .footer-text{
+            float: left;
             width: 400px;
-            margin-left: 100px;
+            padding: 10px;
+            height: 175px;
+            display: block;
+            
 
         }
 
@@ -87,6 +88,7 @@ footer{
             text-align: justify;
             font-size: 11pt;
             line-height: 16pt;
+            
         }
 
         .footer-text q{
@@ -94,11 +96,11 @@ footer{
             
         }
         .foot-redes{
-            position: absolute;
-            left: 700px;
-            width: 300px;
+            float: left;
+            width: 100px;
             height: 175px;
-            top: 5px;
+            display: block;
+            margin-left: 100px;
         }
 
         ul {
