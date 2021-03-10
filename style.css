@@ -22,7 +22,7 @@ body{
     flex-wrap: wrap;
 }
 
-header,footer{
+header,footer,nav{
     width: 100%;
 }
 
@@ -40,6 +40,13 @@ header{
     width: 700px;
     
 }
+
+header #logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
 header form{
     float: right;
     margin-top:25px;
@@ -60,36 +67,45 @@ header button{
     border-radius: 10px; 
 }
 
-header #logo{
-    margin-top: 10px;
-    margin-left: 10px;
-    float: left;
-}
-
-header h1{
-    float: left;
-    text-transform: uppercase;
-}
 /*NAV*/
 nav{
-    width: 100%;
+    align-self:flex-start;
+    position: relative;
+    min-width: fit-content;
     height: 40px;
     background-color:#4DA8DA ;
 }
-nav ul{
-    margin-top: 0;
+
+.navcontainer{
+   width: 700px;
+   margin: auto;
+}
+
+nav .navcontainer #navm{
+    margin: auto;
+    margin-top: -15px;
+}
+
+nav .navcontainer ul{
     list-style-type: none;
 }
 
-nav ul a{
+nav .navcontainer ul a{
     text-decoration: none;
     display: block;
+    text-transform: capitalize;
 }
 
-nav ul li{
+nav .navcontainer ul li :hover{
+    color: #007CC7;
+}
+
+nav .navcontainer ul li{
     float: left;
     padding: 10px;
-}
+    padding-left: 35px;
+    padding-right: 40px;
+ }
 
 /*MAIN*/
 
