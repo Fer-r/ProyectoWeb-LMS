@@ -67,6 +67,12 @@ header button{
     border-radius: 10px; 
 }
 
+/*Header del login*/
+#headl{
+    height: 20px;
+    background-color: #12232E;
+}
+
 /*NAV*/
 nav{
     align-self:flex-start;
@@ -117,6 +123,14 @@ main{
     font-size: 14pt;
     margin: auto;
     
+}
+
+#login{
+    margin: auto;
+}
+
+#login legend{
+    margin: 0 auto;
 }
 
 /*FOOTER*/
