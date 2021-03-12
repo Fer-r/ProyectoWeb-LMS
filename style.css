@@ -11,7 +11,7 @@ Shadow of Light Blue: #EEFBFB
 */
 
 
-body{
+body {
     color: #EEFBFB;
     background-color: #12232E;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,13 +22,15 @@ body{
     flex-wrap: wrap;
 }
 
-header,footer,nav{
+header,
+footer,
+nav {
     width: 100%;
 }
 
 /*HEADER*/
 
-header{
+header {
     align-self: flex-start;
     position: sticky;
     background-color: #203647;
@@ -36,152 +38,157 @@ header{
     min-width: fit-content;
 }
 
-.headr{
+.headr {
     width: 700px;
-    
+
 }
 
-header #logo{
+header #logo {
     margin-top: 30px;
     margin-left: 20px;
     float: left;
 }
 
-header form{
+header form {
     float: right;
-    margin-top:25px;
+    margin-top: 25px;
     margin-right: 10px;
-    
+
 }
 
 
 
-header button{
+header button {
     height: 50px;
     width: 100px;
     border: none;
     background-color: #007CC7;
     color: #EEFBFB;
-    text-transform: capitalize;  
+    text-transform: capitalize;
     cursor: pointer;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 /*Header del login*/
-#headl{
+#headl {
     height: 0;
     background-color: #12232E;
 }
 
 /*NAV*/
-nav{
-    align-self:flex-start;
+nav {
+    align-self: flex-start;
     position: relative;
     min-width: fit-content;
     height: 40px;
-    background-color:#4DA8DA ;
+    background-color: #4DA8DA;
 }
 
-.navcontainer{
-   width: 700px;
-   margin: auto;
+.navcontainer {
+    width: 700px;
+    margin: auto;
 }
 
-nav .navcontainer #navm{
+nav .navcontainer #navm {
     margin: auto;
     margin-top: -15px;
 }
 
-nav .navcontainer ul{
+nav .navcontainer ul {
     list-style-type: none;
 }
 
-nav .navcontainer ul a{
+nav .navcontainer ul a {
     text-decoration: none;
     display: block;
     text-transform: capitalize;
 }
 
-nav .navcontainer ul li :hover{
+nav .navcontainer ul li :hover {
     color: #007CC7;
 }
 
-nav .navcontainer ul li{
+nav .navcontainer ul li {
     float: left;
     padding: 10px;
     padding-left: 35px;
     padding-right: 40px;
- }
+}
 
 /*MAIN*/
 
-main{
+main {
 
     background-color: #11334d;
     min-height: 100vh;
     width: 80%;
     font-size: 14pt;
     margin: auto;
-    
+
 }
 
-fieldset{
+#mainl {
+    background-color: #12232E;
+    min-height: initial;
+}
+
+fieldset {
     border: 0;
 }
 
-#login{
+#login {
     margin: auto;
-    margin-top: 20px ;
+    margin-top: -30px;
     border: #EEFBFB;
     border-radius: 10px;
-    border-style:solid;
+    border-style: solid;
     border-width: 1px;
     padding: 30px;
     width: 200px;
-    height: 270px;
+    height: 280px;
 }
 
-#login legend{
+#login legend {
     margin: 0 auto;
     margin-bottom: 30px;
 }
 
-#login input{
+#login input {
     display: block;
 }
 
-#password{
+#password {
     margin-top: 20px;
 }
 
-#loginb{
+#loginb {
     width: 100px;
     height: 40px;
-    margin-left:35px ;
+    margin-left: 35px;
     margin-top: 15px;
     color: #EEFBFB;
-    background-color:#007CC7;
-    border:0;
+    background-color: #007CC7;
+    border: 0;
     border-radius: 15px;
     cursor: pointer;
 }
 
-hr{
+#linealogin {
     border: #EEFBFB;
-    border-style:solid;
+    border-style: solid;
     border-width: 0.1px;
     width: 260px;
     margin-left: -31px;
 }
 
-#registrol{
+#registrol {
     width: 100px;
     height: 45px;
-    margin-left:50px ;
+    margin-left: 50px;
     margin-top: 10px;
     color: #EEFBFB;
-    background-color:#4DA8DA;
-    border:0;
+    background-color: #4DA8DA;
+    border: 0;
     border-radius: 15px;
     cursor: pointer;
 }
@@ -190,67 +197,66 @@ hr{
 
 /*FOOTER*/
 
-footer{
-    background-color:#203647 ;
-    height:fit-content;
+footer {
+    background-color: #203647;
+    height: fit-content;
     min-width: fit-content;
     align-self: flex-end;
-}   
+}
 
-   /*Clases*/
+/*Clases*/
 
-        .fcontainer{
-            width: 700px;
-            height:fit-content;
-            margin: auto;
-            padding-top: 5px;
-            
-        }
-        .footer-text{
-            float: left;
-            width: 400px;
-            padding: 10px;
-            height: 175px;
-            margin-top: -10px;
-            margin-bottom: 10px;
-            display: block;
-            
+.fcontainer {
+    width: 700px;
+    height: fit-content;
+    margin: auto;
+    padding-top: 5px;
 
-        }
+}
 
-        .footer-text p{
-            margin-top: -10px;
-            float:left;
-            text-align: justify;
-            font-size: 11pt;
-            line-height: 16pt;
-            
-        }
-
-        .footer-text q{
-            margin-left: 220px;
-            
-        }
-        .foot-redes{
-            float: left;
-            width: 100px;
-            height: 175px;
-            display: block;
-            margin-left: 100px;
-        }
-
-        ul {
-           list-style: none; 
-        }
-
-        ul a{
-            color: #EEFBFB;
-        }
-
-        .foot-redes li{
-            margin-bottom: 20px;
-            margin-left: -20px;
-        }
+.footer-text {
+    float: left;
+    width: 400px;
+    padding: 10px;
+    height: 175px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
 
 
+}
 
+.footer-text p {
+    margin-top: -10px;
+    float: left;
+    text-align: justify;
+    font-size: 11pt;
+    line-height: 16pt;
+
+}
+
+.footer-text q {
+    margin-left: 220px;
+
+}
+
+.foot-redes {
+    float: left;
+    width: 100px;
+    height: 175px;
+    display: block;
+    margin-left: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    color: #EEFBFB;
+}
+
+.foot-redes li {
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
