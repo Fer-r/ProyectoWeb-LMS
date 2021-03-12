@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Inicio de Sesion</title>
@@ -12,20 +13,32 @@
 
     <header id="headl">
 
-        
+
     </header>
 
-  <form action="#" id="login">
-      <fieldset>
-        <legend >
-            <a href="index.html">
-                <img src="../assets/Recurso21.png" id="logo" alt="logo" width="150px" height="50px">
-            </a>
-        </legend>
-        <input type="text">algo
-      </fieldset>
-  </form>
-    
+    <div id="login">
+        <form action="#" method="POST" >
+            <fieldset>
+                <legend>
+                    <a href="../index.html">
+                        <img src="../assets/Recurso21.png" id="logo" alt="logo" width="150px" height="50px">
+                    </a>
+                </legend>
+                <input type="email" name="usuario" id="usuario" placeholder="Correo Electronico">
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+
+                <button type="submit" id="loginb">Iniciar Sesion</button>
+
+            </fieldset>
+        </form>
+
+        <hr>
+
+        <form action="register.html" >
+            <button type="submit" id="registrol">Registro</button>
+        </form>
+    </div>
+
     <footer>
         <div>
             <div class="fcontainer">
